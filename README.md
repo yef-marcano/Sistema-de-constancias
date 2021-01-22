@@ -1,5 +1,4 @@
 # Sistema-de-constancias
 
-<p align="center">
-  <img src="portada_sistema_de constancia_ym.jpg" width="350" title="portada">
-</p>
+
+![alt text](https://github.com/yef-marcano/portada_sistema_de_constancia_ym.jpg.jpg?raw=true)
