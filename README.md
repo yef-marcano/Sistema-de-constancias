@@ -1,4 +1,4 @@
 # Sistema-de-constancias
 
 
-![alt text](https://github.com/yef-marcano/portada_sistema_de_constancia_ym.jpg?raw=true)
+![alt text](portada_sistema_de_constancia_ym.jpg)
