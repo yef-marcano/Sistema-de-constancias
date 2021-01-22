@@ -1,0 +1,30 @@
+alinear(foc,just,align)
+	display flex
+	flex-direction foc
+	justify-content just
+	align-items align
+
+body
+	alinear(column,flex-start,center)
+	width 21.59cm
+	font-size 10pt
+	h3
+		font-size 16pt
+	section
+		alinear(row,space-between,center)
+		width 18cm
+		div
+			width 4cm
+			img
+				width 4cm
+				height auto
+				
+		div:last-child	
+			img
+				width 2cm
+	p
+		width 18cm
+		text-align justify
+	p#center
+		text-align center
+	

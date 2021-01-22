@@ -1,0 +1,8 @@
+
+.ym-order {
+display: table-cell;
+}
+
+div.table-responsive>div.dataTables_wrapper>div.row {
+    padding: 15px 10px 0px 15px;
+}

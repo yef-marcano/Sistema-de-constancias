@@ -1,0 +1,66 @@
+/*
+display: flex; /* or inline-flex
+flex-direction: row | row-reverse | column | column-reverse;
+justify-content: flex-start | flex-end | center | space-between | space-around;
+align-items: flex-start | flex-end | center | baseline | stretch;
+*/
+alinear(foc,just,align)
+	display flex
+	flex-direction foc
+	justify-content just
+	align-items align
+body
+	width 100%
+	margin 0
+	alinear(column,center,center)
+
+header
+	width 100%
+	alinear(row,center,center)
+	h1
+		text-align center
+		margin 0 15%
+	a
+		img
+			width auto
+			height 80px
+	img
+		height 100px
+		width auto
+
+section
+	width 100%
+	alinear(column,center,center)
+	margin-top 50px
+	p
+		margin 0
+		color #7E7A7A
+		font-size 1.5em
+	article
+		display flex
+		alinear(row,space-around,center)
+		margin-top 20px
+		height 400px
+		width 60%
+		border-radius 30px
+		border 15px solid #333
+		
+		a
+			alinear(column,center,center)
+			width 50%
+			text-decoration none
+			
+			div
+				width 200px
+				height 200px
+				border-radius 200px
+				border 5px solid rgb(17,160,91)
+				background rgb(17,160,91)
+				alinear(column,center,center)
+			p
+				margin-top 10px
+				font-size 2em
+				
+			#circulo_amarillo
+				border-color rgb(245,225,69)
+				background rgb(245,225,69)

@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 21.59cm;
+  font-size: 10pt;
+}
+body h3 {
+  font-size: 16pt;
+}
+body section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 18cm;
+}
+body section div {
+  width: 4cm;
+}
+body section div img {
+  width: 4cm;
+  height: auto;
+}
+body section div:last-child img {
+  width: 2cm;
+}
+body p {
+  width: 18cm;
+  text-align: justify;
+}
+body p#center {
+  text-align: center;
+}

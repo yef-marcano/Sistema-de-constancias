@@ -1,0 +1,58 @@
+alinear(foc,just,align)
+	display flex
+	flex-direction foc
+	justify-content just
+	align-items align	
+body
+	width 100%
+	margin 0
+	margin-bottom 30px
+
+header
+	width 100%
+	alinear(row,center,center)
+	h1
+		text-align center
+		margin 0 15%
+	a
+		img
+			width auto
+			height 80px
+	img
+		height 100px
+		width auto
+
+section
+	width 90%
+	margin-left 5%
+	alinear(row,center,flex-start)
+	
+	article
+		alinear(column,center,flex-start)
+		margin 0
+		width 50%
+		p,label
+			font-size 1.5em
+		input[name='buscar']
+			font-size 1em
+			height 30px
+			width 300px
+		input[name="aceptar"]
+			margin-left 10px
+			height 40px
+			width 100px
+		
+		div
+			alinear(row,center,center)
+			margin 0
+	
+	article:last-child
+		alinear(row,space-around,center)
+		
+		select
+			width 250px
+			height 50px
+			font-size 1.2em
+			
+			option
+				font-size 1em
