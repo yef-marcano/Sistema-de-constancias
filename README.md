@@ -5,7 +5,7 @@
 
 ## Codigo utilizado
 
- - Desarrollado con PHP y MySQL.
+ - Desarrollado con PHP, Javascript y MySQL.
 
 
 ## Mas Informacion
